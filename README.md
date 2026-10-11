@@ -1,28 +1,13 @@
-Lex2See 📸📚
+# Lex2See 📸📚 ứng dụng di động hỗ trợ học và ghi nhớ từ vựng tiếng Anh thông qua nhận diện hình ảnh, flashcard cá nhân hóa và Spaced Repetition System (SRS).
+
 Snap to see, learn quickly 
-Lex2See là ứng dụng di động hỗ trợ học và ghi nhớ từ vựng tiếng Anh thông qua nhận diện hình ảnh, flashcard cá nhân hóa và Spaced Repetition System (SRS).
+
 Ứng dụng hướng đến nhóm người học bận rộn, đặc biệt là sinh viên, giúp biến các đồ vật xuất hiện trong đời sống hằng ngày thành nguồn từ vựng cá nhân có thể lưu, học và ôn tập lâu dài.
+
 🔗 Project Links
 📄 Product Documentation
 Toàn bộ tài liệu phân tích và thiết kế sản phẩm được trình bày trên Notion:
 👉 Lex2See Product Documentation: https://app.notion.com/p/Lex2See-ng-d-ng-h-c-t-v-ng-ti-ng-anh-th-ng-qua-h-nh-nh-3eb431aa20bc801aa751f2257bcfe9cc?source=copy_link
-
-Tài liệu bao gồm:
-- Market Research
-- Competitor Analysis
-- User Research
-- Empathy Map
-- User Persona
-- User Journey Map
-- Problem Statement
-- Value Proposition
-- Product Goals
-- User Stories & Acceptance Criteria
-- Use Cases
-- Functional / Non-functional Requirements
-- Database Design
-- MVP Scope
-- Product Roadmap
   
 💻 Source Code
 Mã nguồn của dự án được quản lý trên GitHub này
@@ -39,6 +24,7 @@ Khảo sát ban đầu với nhóm sinh viên mục tiêu cho thấy các pain p
 - 70% gặp khó khăn khi sử dụng từ trong ngữ cảnh.
 - 70% khó duy trì thói quen học.
 - 90% cho biết có thể sử dụng ứng dụng khi gặp một đồ vật mà không biết tên tiếng Anh.
+
 💡 Solution
 Lex2See xây dựng một learning loop khép kín:
 See -> Recognize -> Understand -> Save -> Learn -> Review -> Remember

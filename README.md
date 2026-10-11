@@ -149,15 +149,6 @@ AI / Computer Vision
 - TensorFlow Lite
 - YOLO-based object detection model
 
-│   ├── flashcard
-│   ├── review
-│   ├── progress
-│   └── home
-└── worker
-Cấu trúc thư mục có thể tiếp tục thay đổi trong quá trình phát triển.
-
-
-
 👉 Lex2See Figma Design: 
 https://www.figma.com/design/CKzNwgGyBGHpcs3ZMzC2LS/VOCAB-APP?node-id=1-2&t=BRRVPcWBhm8FRLtY-1
 

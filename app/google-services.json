@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "647177905883",
+    "project_id": "lex2see",
+    "storage_bucket": "lex2see.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647177905883:android:5ecdc2f5fdfe88b5094efe",
+        "android_client_info": {
+          "package_name": "com.example.lex2see"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647177905883-ibiheth8svcegud2jeo8pq22imk6v7tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lex2see",
+            "certificate_hash": "f67d84faebaaaf296849f31dd7e5e8fc7d630bf7"
+          }
+        },
+        {
+          "client_id": "647177905883-1hm44dqn72kpd9p7o69e98q97put244c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfY2Msi902z3cjbsf7a2xBha_3xNL672k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647177905883-1hm44dqn72kpd9p7o69e98q97put244c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

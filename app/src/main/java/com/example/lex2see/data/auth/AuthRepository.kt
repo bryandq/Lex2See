@@ -10,6 +10,18 @@ sealed interface AuthResult {
  * Replace DemoAuthRepository with FirebaseAuthRepository after google-services.json is added.
  */
 interface AuthRepository {
-    suspend fun signInWithPhone(phone: String, password: String): AuthResult
-    suspend fun signInWithGoogle(): AuthResult
+    suspend fun register(
+        email: String,
+        password: String,
+        displayName: String
+    ): Result<Unit>
+
+    suspend fun login(
+        email: String,
+        password: String
+    ): Result<Unit>
+
+    suspend fun ensureUserProfile(): Result<Unit>
+
+    fun logout()
 }

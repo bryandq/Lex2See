@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
+
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -41,6 +43,9 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.9.8")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
+    implementation("androidx.credentials:credentials:1.7.0-alpha03")
+    implementation("androidx.credentials:credentials-play-services-auth:1.7.0-alpha03")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.2.1")
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
@@ -58,4 +63,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    implementation(platform("com.google.firebase:firebase-bom:35.0.0"))
+
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-storage")
+    implementation("com.google.firebase:firebase-messaging")
+    // Để dùng .await() với Firebase Task
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2")
 }
